@@ -84,7 +84,7 @@ def train(epoch):
         loss.backward()
         optimizer.step()
 
-    print('Epoch: {0}, Loss: {1:.6f}'.format(epoch, running_loss / len(word_to_idx)))
+    print('Epoch: {0}, Loss: {1:.6f}'.format(epoch, running_loss / len(tri_gram)))
 
 # model evaluation
 
